@@ -1,0 +1,318 @@
+{
+    "id": "bcad6f1b-c91b-47e5-8078-08445abbdabd",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "5919b2e5-cc70-438c-8678-619c18d28c46",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "99797a03-e470-4575-938c-d297b4705421",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "02fab4e8-dca0-4f99-96e5-a7cd043541a3",
+            "Value": {
+                "id": "a597d20f-16dd-4b1e-9cb6-ec5f90de78a1",
+                "resourcePath": "sprites\\sprMarioJump\\sprMarioJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0a793921-9378-4aa3-894e-0447a17a34a6",
+            "Value": {
+                "id": "695d2667-4fc7-4a40-a378-5949cfbe0bcb",
+                "resourcePath": "views\\0a793921-9378-4aa3-894e-0447a17a34a6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1065c267-da4d-443e-9e30-564b5b760e6c",
+            "Value": {
+                "id": "f8beeb69-6248-4650-92cc-359a87b31b71",
+                "resourcePath": "views\\1065c267-da4d-443e-9e30-564b5b760e6c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "124dc819-1f8b-4b01-ad71-21487f9f9a36",
+            "Value": {
+                "id": "4e7cf133-fae4-4124-a15f-7411e340659a",
+                "resourcePath": "sprites\\sprBCrouch\\sprBCrouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "140269b2-8e10-4828-bca6-5621909e5471",
+            "Value": {
+                "id": "a2ae28e1-2094-4085-bf25-4602508ff444",
+                "resourcePath": "views\\140269b2-8e10-4828-bca6-5621909e5471.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "16b16bcd-bb57-48ca-85e1-a02c500bed2f",
+            "Value": {
+                "id": "8d20565b-483b-4d95-be6f-d35e9c39367c",
+                "resourcePath": "views\\16b16bcd-bb57-48ca-85e1-a02c500bed2f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1c86975c-0208-433e-84fd-96072d706a22",
+            "Value": {
+                "id": "4895a14e-82ab-4cab-a360-f0eb12e42f6c",
+                "resourcePath": "sprites\\sprFF\\sprFF.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e5d2f7c-86d5-4916-a8b6-ace18e04e105",
+            "Value": {
+                "id": "f6af1856-ce81-4f24-9a2b-fff81a17c051",
+                "resourcePath": "sprites\\sprBigMarioJump\\sprBigMarioJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e605117-ad63-452a-aab4-5e77cd7b64dc",
+            "Value": {
+                "id": "1e2d390e-419f-42e6-a46a-b5438dd5ae23",
+                "resourcePath": "views\\2e605117-ad63-452a-aab4-5e77cd7b64dc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35196834-9fb1-4199-b07f-402d2208567b",
+            "Value": {
+                "id": "1ef411c7-7257-49e0-aba6-7149ab3f4a87",
+                "resourcePath": "objects\\objStone\\objStone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5cad2671-68a2-4525-857d-710e9499aafd",
+            "Value": {
+                "id": "578c0777-b3ec-45ff-957f-95c2c530aafd",
+                "resourcePath": "sprites\\sprMario\\sprMario.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65794175-81d9-436a-be65-5399887ab69b",
+            "Value": {
+                "id": "dcdc0a7f-06ad-494b-b85f-ca9a124a1e17",
+                "resourcePath": "objects\\objFire\\objFire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c3665ea-f6e5-45b0-874b-58c166a0148d",
+            "Value": {
+                "id": "1f0b868e-7aa7-40d3-aaba-709b432eeb86",
+                "resourcePath": "views\\6c3665ea-f6e5-45b0-874b-58c166a0148d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7731cb80-a4e8-432f-abdc-0645032094fb",
+            "Value": {
+                "id": "47651253-f516-4e59-a00f-6f3a76cfbf9b",
+                "resourcePath": "views\\7731cb80-a4e8-432f-abdc-0645032094fb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97060dc7-f968-42bd-9749-822471f08ec0",
+            "Value": {
+                "id": "dc6b7fba-c6c3-4edb-ab0b-b25eb1e81d43",
+                "resourcePath": "views\\97060dc7-f968-42bd-9749-822471f08ec0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "994ad2e4-6b53-4d3e-abca-cab2838c5b28",
+            "Value": {
+                "id": "d0daff23-1a37-4618-908c-e87b48024c25",
+                "resourcePath": "sprites\\sprFireMarioJump\\sprFireMarioJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5e1d387-93cd-4b65-9c6f-ebcbec3120ee",
+            "Value": {
+                "id": "a4095474-e263-496a-92b8-42dc8123fc9a",
+                "resourcePath": "views\\a5e1d387-93cd-4b65-9c6f-ebcbec3120ee.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a81716c0-8485-4ef8-abfe-b1023411b716",
+            "Value": {
+                "id": "1210d5ab-3639-440f-a6a1-76e3acd923eb",
+                "resourcePath": "views\\a81716c0-8485-4ef8-abfe-b1023411b716.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "b3e65fe2-84f6-4191-8fa0-0291f507278b",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b6f5ce42-68a0-481e-b146-ae9a628dd02e",
+            "Value": {
+                "id": "0f66d999-2cfc-4b40-a670-e570f709bba8",
+                "resourcePath": "views\\b6f5ce42-68a0-481e-b146-ae9a628dd02e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb61eeac-6ec6-4510-a21f-f85a106a5293",
+            "Value": {
+                "id": "3cc1fb9a-a6a6-44cb-b2a0-90454e1024f2",
+                "resourcePath": "sprites\\sprFire\\sprFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb93ec39-6809-49f1-b9b7-a28948b47cf9",
+            "Value": {
+                "id": "83a064d1-cea7-41d0-beeb-6b653b5f2cdc",
+                "resourcePath": "views\\cb93ec39-6809-49f1-b9b7-a28948b47cf9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cbebcb7f-948c-4259-b6bb-6a017c847983",
+            "Value": {
+                "id": "25d37dcb-23b6-4372-a5ea-34f1eabe320a",
+                "resourcePath": "sprites\\sprBlock\\sprBlock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cbf97d6a-d7da-400f-bf8e-1f3b2e829861",
+            "Value": {
+                "id": "46de639e-4b8d-42ab-85e1-7ef46a68fa24",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "69c41a5d-b50b-41df-b5f7-f293e4ed02ee",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd8768a8-5648-4816-ad01-5814097b3b81",
+            "Value": {
+                "id": "a8d7f945-e1a0-4b46-b791-25846073ed37",
+                "resourcePath": "views\\cd8768a8-5648-4816-ad01-5814097b3b81.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d1182558-8381-4b5b-8898-20bdfb2eb06e",
+            "Value": {
+                "id": "9be0ca8c-ef90-47c9-8de2-94340c711198",
+                "resourcePath": "views\\d1182558-8381-4b5b-8898-20bdfb2eb06e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2107104-2e9f-4256-a880-be05b1998456",
+            "Value": {
+                "id": "0231ca84-07d4-48dd-8e54-5f76df82a5b3",
+                "resourcePath": "sprites\\sprFCrouch\\sprFCrouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dda59d30-a667-47ef-a6b4-dfca324c5014",
+            "Value": {
+                "id": "08e88cbb-d2df-4c34-a8e0-2f0d7409924e",
+                "resourcePath": "views\\dda59d30-a667-47ef-a6b4-dfca324c5014.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e160df7c-3ecc-466f-8924-dd6bc1a28dec",
+            "Value": {
+                "id": "22142a8e-17fa-4555-9c01-524f3ce9bcfb",
+                "resourcePath": "objects\\objFireFlower\\objFireFlower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e695844f-f854-45f6-90ec-ed8849efdf4b",
+            "Value": {
+                "id": "bfabcbb6-ec60-4946-801f-e78a1d4f4bd7",
+                "resourcePath": "sprites\\sprFireMario\\sprFireMario.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "efa10fc4-f6f7-44a6-bcae-79cf558d5d58",
+            "Value": {
+                "id": "6df7f79d-97b8-46ef-ad65-0e18a80a0477",
+                "resourcePath": "views\\efa10fc4-f6f7-44a6-bcae-79cf558d5d58.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0e2a932-c3c1-4e0e-b987-e0e803400e75",
+            "Value": {
+                "id": "92b4c093-e907-4c8e-9944-cd8d451db026",
+                "resourcePath": "objects\\objMario\\objMario.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "d0161467-b593-413d-a9dc-a78a6c19bf37",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fc96a873-f534-4ca0-b515-bf4c98753339",
+            "Value": {
+                "id": "223f3fc8-8a79-4591-a51d-18f5a9a721e6",
+                "resourcePath": "sprites\\sprBigMario\\sprBigMario.yy",
+                "resourceType": "GMSprite"
+            }
+        }
+    ],
+    "script_order": [
+        
+    ],
+    "tutorial": ""
+}
