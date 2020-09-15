@@ -97,6 +97,7 @@ if shownHp > 0 //else //if alarm[0] <= 0
 						break;
 					case 10:
 						direction = 90
+						alive = false
 						//speed = 3
 						//if alarm[0] <=0
 						//{
@@ -113,7 +114,8 @@ if shownHp > 0 //else //if alarm[0] <= 0
 	
 	if direction = 90 and objHeart.displayText = false and alarm[0] <=0
 	{
-		speed = 3
+		//alive = false
+		speed = 4
 		alarm[0] = 120
 	}
 	

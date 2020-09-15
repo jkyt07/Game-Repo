@@ -70,8 +70,10 @@ if displayText and menuDial != 0
 	}
 	else if shownHp > friskHp
 	{
-		draw_text_color(15, 20, string(shownHp), c_purple, c_purple, c_purple, c_purple, 1)
-		draw_rectangle_color(midCam - 40, 920, midCam - 40 + 100*(shownHp/friskMaxHp), 970, c_purple,c_purple,c_purple,c_purple, 0)
+		//draw_text_color(15, 20, string(shownHp), c_purple, c_purple, c_purple, c_purple, 1)
+		//draw_rectangle_color(midCam - 40, 920, midCam - 40 + 100*(shownHp/friskMaxHp), 970, c_purple,c_purple,c_purple,c_purple, 0)
+		draw_text_color(15, 20, string(shownHp), c_red, c_red, c_red, c_red, 1)
+		//draw_rectangle_color(midCam - 40, 920, midCam - 40 + 100*(shownHp/friskMaxHp), 970, c_yellow,c_yellow,c_yellow,c_yellow, 0)
 		draw_rectangle_color(midCam - 40, 920, midCam - 40 + 100*(friskHp/friskMaxHp), 970, c_yellow,c_yellow,c_yellow,c_yellow, 0)
 	}
 	else

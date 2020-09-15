@@ -32,6 +32,7 @@ numShots = 3
 shots = 0
 attackSpd = 0
 attacks = ds_list_create()
+	show_debug_message("Attacks Created")
 showDmg = 0
 shownHp = friskHp
 hit = -1

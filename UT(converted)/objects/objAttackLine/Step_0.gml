@@ -15,5 +15,7 @@ if use and !used //keyboard_check_pressed(vk_space) or keyboard_check_pressed(or
 		instance_destroy()	
 	}
 	used = true
-	ds_list_delete(objHeart.attacks, ds_list_find_index(objHeart.attacks, self))
+		show_debug_message("Delete attack " + string(ds_list_find_value(objHeart.attacks, 0)))
+	//ds_list_delete(objHeart.attacks, ds_list_find_index(objHeart.attacks, self))	
+	ds_list_delete(objHeart.attacks, 0)	
 }

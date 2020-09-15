@@ -2,6 +2,7 @@ randomize()
 
 if shownHp <=0 
 {
+	alive = false
 	//objHeart.yourTurn = 0
 	objHeart.menuOption = -1
 	image_index = 1

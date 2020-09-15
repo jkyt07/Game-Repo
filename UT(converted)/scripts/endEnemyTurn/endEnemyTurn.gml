@@ -1,4 +1,5 @@
-function endEnemyTurn() {
+function endEnemyTurn() 
+{
 	with(objHeart)
 	{
 		yourTurn = true

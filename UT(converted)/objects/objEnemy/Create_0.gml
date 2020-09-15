@@ -20,6 +20,7 @@ actOptions[0, 1] = [
   box."]
 act = -1
 
+alive = true
 hp = 110
 shownHp = hp
 maxHp = hp

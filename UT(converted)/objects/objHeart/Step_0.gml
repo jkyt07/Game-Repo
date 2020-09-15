@@ -162,7 +162,8 @@ else
 						displayText = false	
 						textCur = 0
 						textNum = 0
-						startEnemyTurn()
+						if enemy.alive
+							startEnemyTurn()
 					}
 				}
 			}
@@ -208,7 +209,9 @@ else
 			else if ds_list_size(attacks) > 0
 			{
 				var att = ds_list_find_value(attacks, 0)
-				att.use = true
+					show_debug_message("Attacks: " + string(ds_list_size(attacks)) + " " + string(att))
+				//if object_exists(att)
+					att.use = true
 			}
 			else if options != -1 and options[optionsOption, 0] != ""
 			{
