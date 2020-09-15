@@ -110,7 +110,7 @@ if !place_meeting(x, y+1, objSolid)
 else if keyboard_check(vk_space) and sprIndex != sprKirbyFly and mouth = 0
 {
 	if !noSuck
-	suck = true
+		suck = true
 	image_speed = 1
 	if sprIndex != sprKirbySuck
 	{
@@ -172,18 +172,18 @@ else
 		sprite_index = sprIndex	
 		//image_speed = 0
 	}
-	
-	if keyboard_check_pressed(vk_space) and mouth != 0
-	{
-		mouth = 0
-		sprIndex = sprKirbySuckStart
-		sprite_index = sprIndex	
-		image_speed = -1
+}
+
+if keyboard_check_pressed(vk_space) and mouth != 0
+{
+	mouth = 0
+	sprIndex = sprKirbySuckStart
+	sprite_index = sprIndex	
+	image_speed = -1
 		
-		instance_create_layer(x + 5*image_xscale, y, "InstancesA", objStar)
+	instance_create_layer(x + 5*image_xscale, y, "InstancesA", objStar)
 		
-		noSuck = true
-	}
+	noSuck = true
 }
 
 if sprIndex >= sprKirbyFlyDef
