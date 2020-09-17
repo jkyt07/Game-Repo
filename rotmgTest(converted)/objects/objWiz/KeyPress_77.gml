@@ -1,1 +1,0 @@
-showMap = !showMap

@@ -1,1 +1,0 @@
-shownHp+= .5*sign(friskHp - shownHp)

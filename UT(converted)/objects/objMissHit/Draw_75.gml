@@ -1,1 +1,0 @@
-//draw_sprite(sprMissHit, 0, 1700, 50)

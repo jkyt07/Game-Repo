@@ -1,1 +1,0 @@
-isSolid = true

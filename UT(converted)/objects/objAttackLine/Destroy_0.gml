@@ -1,1 +1,0 @@
-objHeart.turnDmg+= damage	

@@ -1,2 +1,0 @@
-portalRoom = rmOverworld
-portalName = "Overworld"

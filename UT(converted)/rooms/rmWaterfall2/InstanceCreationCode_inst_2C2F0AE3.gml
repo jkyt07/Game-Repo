@@ -1,3 +1,0 @@
-dialogue = [
-@"* I swear I saw something...
-* Behind that rushing water..."]
