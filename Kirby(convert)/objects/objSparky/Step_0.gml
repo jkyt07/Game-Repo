@@ -27,7 +27,7 @@ else if suck and point_distance(x,y, objKirbo.x, objKirbo.y) <= 60 and (kirbDir 
 	
 	if point_distance(x,y, objKirbo.x, objKirbo.y) <= 3
 	{
-		mouth = object_get_name(self)
+		mouth = self.object_index //object_get_name(self)
 		suck = false
 		instance_destroy()	
 	}

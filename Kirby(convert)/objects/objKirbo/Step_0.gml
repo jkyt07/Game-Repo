@@ -24,6 +24,7 @@ if moveHoriz != 0 and sprIndex != sprKirbySuckStart and sprIndex != sprKirbySuck
 		
 	image_speed = 1
 	image_xscale = sign(moveHoriz)*imageScale
+	if image_xscale < 0 then dir = 1 else dir = 0
 }
 
 if (moveHoriz = 0 or place_meeting(x+sign(moveHoriz), y, objSolid)) and (sprIndex < sprKirbyFullSwallow or sprIndex = sprKirbyFlyDef)
@@ -212,6 +213,9 @@ if sprIndex >= sprKirbyFlyDef
 		if vertSpd > 0 then vertSpd = 0
 		grvSpd = 3
 		grv = 1
+		
+		var puff = instance_create_layer(x,y, "InstancesB", objPuff)
+		puff.direction = 180*dir
 	}
 }
 //else
@@ -223,8 +227,16 @@ if sprIndex >= sprKirbyFlyDef
 if sprIndex = sprKirbyFullSwallow and image_index > image_number - 1
 {
 	
+	switch(mouth)
+	{
+		case objSparky:
+			pow = 1
+			sprIndex = sprKirbyDefSpark
+			show_debug_message("Power: Spark")
+		default:
+			sprIndex = sprKirbyDef
+	}
 	mouth = 0
-	sprIndex = sprKirbyDef
 	sprite_index = sprIndex
 	
 }
@@ -258,6 +270,12 @@ if place_meeting(x, y, objSolid)
 	x = prevPos[0]
 	y = prevPos[1]
 	
+}
+
+if place_meeting(x, y+1, objSolid) and vertSpd = 0 and sprite_index >= sprKirbyFly
+{
+	sprite_index = sprKirbyDef
+	show_debug_message("fallback sprite")
 }
 
 if keyboard_check_released(vk_space)

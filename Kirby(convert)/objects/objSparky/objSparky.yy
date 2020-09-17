@@ -29,6 +29,7 @@
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"objSparky","path":"objects/objSparky/objSparky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"objSparky","path":"objects/objSparky/objSparky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objStar","path":"objects/objStar/objStar.yy",},"parent":{"name":"objSparky","path":"objects/objSparky/objSparky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objPuff","path":"objects/objPuff/objPuff.yy",},"parent":{"name":"objSparky","path":"objects/objSparky/objSparky.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

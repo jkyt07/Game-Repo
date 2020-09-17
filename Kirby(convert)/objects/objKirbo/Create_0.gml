@@ -20,6 +20,10 @@ suck = false;
 mouth = 0;
 noSuck = false
 
+pow = 0 //1 spark
+
+dir = 0 //0=right, 1=left
+
 //palette swap
 //for(var i = 0; sprite_exists(i+1); i++)
 //{
