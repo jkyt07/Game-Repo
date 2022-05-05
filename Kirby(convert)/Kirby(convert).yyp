@@ -61,6 +61,9 @@
   "Options": [
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -69,8 +72,8 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"room0","path":"rooms/room0/room0.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -94,16 +97,16 @@
     {"folderPath":"folders/Sprites/KirbySpark.yy","order":11,"resourceVersion":"1.0","name":"KirbySpark","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.7.606",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "Kirby(convert)",
   "tags": [],
   "resourceType": "GMProject",

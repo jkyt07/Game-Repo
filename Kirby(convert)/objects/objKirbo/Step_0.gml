@@ -128,7 +128,7 @@ else if keyboard_check(vk_space) and sprIndex != sprKirbyFly and mouth = 0
 	}
 	
 }
-else if keyboard_check(ord("S"))
+else if keyboard_check(ord("S")) or keyboard_check_pressed(vk_down)
 {
 	if mouth = 0
 	{
